@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DragNDrop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-header start">Начать</div><hr>
+            <div class="col-header progress">В процессе</div><hr>
+            <div class="col-header done">Готовы</div>
+        </div>
+        <div class="row">
+            <div class="placeholder">
+                <div class="item" draggable="true">Первое дело</div>
+            </div><hr>
+            <div class="placeholder">
+                <div class="item" draggable="true">Третье дело</div>
+                <div class="item" draggable="true">Пятое дело</div>
+                <div class="item" draggable="true">Четвертое дело</div>
+            </div><hr>
+            <div class="placeholder">
+                <div class="item" draggable="true">Второе дело</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
